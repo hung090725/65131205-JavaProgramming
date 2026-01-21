@@ -15,6 +15,8 @@ public class XinChaoHung {
 		// TODO Auto-generated method stub
 		System.out.println("hello HưngDJ");
 		System.out.println("hahahahaha");
+		System.out.println("kkkkkffff");
+		
 		
 
 	}
