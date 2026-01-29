@@ -44,7 +44,7 @@ public class Bai8_TienDienbacThang {
         
         System.out.printf("Số kWh tiêu thụ: %,.0f kWh\n", kWh);
         System.out.printf("Tiền điện phải trả: %,.0f VND\n", tienDien);
-           
+        scanner.close();   
 	}
 
 }

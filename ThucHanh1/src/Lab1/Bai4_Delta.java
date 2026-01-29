@@ -46,6 +46,7 @@ public class Bai4_Delta {
         } else {
             System.out.println("Căn Delta: không tồn tại (vì Δ < 0)");
         }
+        scanner.close();
 
 	}
 

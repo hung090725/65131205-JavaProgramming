@@ -56,7 +56,7 @@ public class Bai7_PhuongTrinhBac1 {
             
             System.out.printf("Phương trình: %.0fx + %.0f = 0\n", a, b);
             System.out.printf("Nghiệm: x = %.0f\n", x);
-
+            scanner.close();
 		
         }
 

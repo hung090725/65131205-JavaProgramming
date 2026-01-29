@@ -32,6 +32,7 @@ public class Bai6_QuyDoiTien {
 		
 		System.out.printf(" Đổi USD Sang VND : %,.0f USD = %,.0f VND \n ",USD,usdSangVND);
 		System.out.printf("Đổi EUR Sang VND : %,.0f EUR = %,.0f VND \n",EUR,eurSangVND);
+		sc.close();
 	}
 
 }

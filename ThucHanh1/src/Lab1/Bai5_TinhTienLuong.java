@@ -36,6 +36,7 @@ public class Bai5_TinhTienLuong {
 		System.out.printf("Số giờ làm: %.0f giờ\n", soGio);
         System.out.printf("Lương theo giờ: %.0f VND\n", luongGio);
         System.out.printf("Tổng lương: %,.0f VND\n", tongLuong);
+        sc.close();
         /* , (Dấu phẩy):  "Hãy tự động thêm dấu phân cách hàng nghìn vào cho tôi".
          * nhập Lương Theo Giờ :50000
 Số giờ làm: 45 giờ

@@ -32,7 +32,7 @@ public class Bai3_TheTich {
         System.out.printf("Thể tích: %.2f\n", theTich);
         System.out.printf("Diện tích toàn phần: %.2f\n", dienTichTP);
         System.out.printf("Diện tích toàn phần cách 2 : %.2f\n",dienTichTPC2);
-		
+		sc.close();
 	}
 
 }

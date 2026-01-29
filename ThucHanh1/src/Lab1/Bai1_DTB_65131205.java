@@ -27,6 +27,7 @@ public class Bai1_DTB_65131205 {
 		double diemtb = sc.nextDouble();
 		System.out.println("Họ Và tên:" + hoTen);
 		System.out.printf("điểm Trung Bình : %.2f", diemtb);
+		sc.close();
 	
 	}
 

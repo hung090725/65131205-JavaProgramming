@@ -38,7 +38,7 @@ public class Bai2_ChuviDT {
         System.out.printf("diện tích : %.2f\n",dienTich);
         System.out.printf("cạnh nhỏ : %.2f\n",canhNho);
         
-        
+        sc.close();
 	}
 
 }
