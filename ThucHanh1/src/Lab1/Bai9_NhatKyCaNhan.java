@@ -46,7 +46,7 @@ public class Bai9_NhatKyCaNhan {
             } else if (choice == 2) {
                 docNhatKy();
             } else if (choice == 0) {
-                System.out.println("Tạm biệt!");
+                System.out.println("hẹn hôm sau");
                 break;
             } else {
                 System.out.println("Lựa chọn không hợp lệ!");
@@ -55,7 +55,13 @@ public class Bai9_NhatKyCaNhan {
 
         sc.close();
     }
-
+    /*// import java.time.*;      //  Nếu muốn thêm ngày (không bắt buộc)
+Tại sao cần java.io.*?
+FileWriter → Tạo file và ghi dữ liệu
+BufferedWriter → Ghi nhanh hơn (buffer)
+FileReader → Đọc file
+BufferedReader → Đọc nhanh hơn (buffer)
+File → Kiểm tra file có tồn tại không*/
     // Hàm ghi nhật ký (append vào cuối file)
     static void ghiNhatKy(Scanner sc) {
         System.out.println("Nhập nội dung nhật ký (gõ 'END' để kết thúc):");
